@@ -38,36 +38,36 @@
 
   </View>
 
-  <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-  <Button
-      android:id="@+id/btnClear"
-      style="@style/buttonTextStyle"
-      android:text="@string/btnClear"
-      android:textColor="#F26002"/>
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/buttonTextStyle"
+            android:baselineAligned="false"
+            android:text="@string/btnClear"
+            android:textColor="#F26002" />
 
-  <Button
-      android:id="@+id/btnNegative"
-      style="@style/buttonTextStyle"
-      android:text="@string/btnNegative"
-      android:textColor="#28C727"/>
+        <Button
+            android:id="@+id/btnNegative"
+            style="@style/buttonTextStyle"
+            android:text="@string/btnNegative"
+            android:textColor="#28C727" />
 
-  <Button
-      android:id="@+id/btnPercentage"
-      style="@style/buttonTextStyle"
-      android:text="@string/btnPercentage"
-      android:textColor="#28C727" />
+        <Button
+            android:id="@+id/btnPercentage"
+            style="@style/buttonTextStyle"
+            android:text="@string/btnPercentage"
+            android:textColor="#28C727" />
 
-  <Button
-      android:id="@+id/btnDivide"
-      style="@style/buttonTextStyle"
-      android:text="@string/btnDivide"
-      android:textColor="#28C727" />
+        <Button
+            android:id="@+id/btnDivide"
+            style="@style/buttonTextStyle"
+            android:text="@string/btnDivide"
+            android:textColor="#28C727" />
 
-</LinearLayout>
+    </LinearLayout>
 
   <LinearLayout
       android:layout_width="match_parent"
@@ -160,10 +160,11 @@
         style="@style/buttonTextStyle"
         android:text="@string/btnDecimal"/>
 
-    <Button
-        android:id="@+id/btnZero"
-        style="@style/buttonTextStyle"
-        android:text="@string/btnZero"/>
+      <Button
+          android:id="@+id/btnZero"
+          style="@style/buttonTextStyle"
+          android:layout_width="wrap_content"
+          android:text="@string/btnZero" />
 
     <Button
         android:id="@+id/btnEquals"
